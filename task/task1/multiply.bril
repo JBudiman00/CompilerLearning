@@ -1,0 +1,8 @@
+@main{
+  v0: int = const 3;
+  v1: int = const 10;
+  v2: int = const 5;
+  v3: int = mul v0 v1;
+  v4: int = div v3 v2;
+  print v4;
+}
